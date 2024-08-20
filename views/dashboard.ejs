@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .dashboard {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .dashboard h1 {
+        color: #333333;
+      }
+      .dashboard p {
+        color: #666666;
+      }
+      .logout-btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      .logout-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+      <h1>Welcome, To the Dashboard!</h1>
+      <p>You have successfully logged in to your dashboard.</p>
+      <form action="/" >
+        <button type="submit" class="logout-btn">Logout</button>
+      </form>
+    </div>
+</body>
+</html>
